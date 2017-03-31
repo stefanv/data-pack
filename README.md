@@ -7,8 +7,8 @@ distributed either directly (and queried via URL), or via an index.
 
 ## Specification: data-pack
 
-A data pack is a JSON file, stored at a publicly accessible HTTP URL,
-of the following format:
+A data pack is a JSON file, stored at a publicly accessible and
+*persistent* HTTP URL, of the following format:
 
 ```
 {
@@ -27,7 +27,10 @@ of the following format:
 
     {
       "name": "chelsea",
-      "url":  "https://github.com/scikit-image/scikit-image/raw/master/skimage/data/chelsea.png"
+      "url": "https://github.com/scikit-image/scikit-image/raw/master/skimage/data/chelsea.png"
+      "meta": {
+        "note": "You probably don't want to store data on GitHub---ephemeral"
+      }
     }
   ]
 }
