@@ -35,7 +35,7 @@ of the following format:
   "name": "neuroimage",
   "description": "Description of the neuroimaging archive",
   "datapacks": {
-      "chelsea": "http://somewhere.org/data/chelsea.json",
+      "chelsea": "http://somewhere.org/data/cat.json",
       "sky": "http://somwhere.else.org/sky.json"
   }
 }
@@ -46,7 +46,7 @@ of the following format:
 ```python
 import datapack as dp
 dp.add_index('neuroimage', 'http://www.index.org/datapack-index.json')
-data = dp.datapack('neuroimage:chelsea')
+data = dp.datapack('neuroimage:cat')
 
 data.fetch()  # download and cache the datapack
 data.list()  # list files in the datapack
