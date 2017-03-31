@@ -15,20 +15,20 @@ of the following format:
   "description": "Description of the package",
   "version": 0.0,
   "files": [
-      {
-        "name": "tipsy",
-        "url": "https://api.figshare.com/v2/articles/4810153",
-        "type": "png",
-        "meta": {
-            "arbitrary": "metadata",
-            "another": "field",
-         }
-      },
+    {
+      "name": "tipsy",
+      "url": "https://api.figshare.com/v2/articles/4810153",
+      "type": "png",
+      "meta": {
+          "arbitrary": "metadata",
+          "another": "field"
+       }
+    },
 
-      {
-        "name": "chelsea",
-        "url":  "https://github.com/scikit-image/scikit-image/raw/master/skimage/data/chelsea.png"
-      }
+    {
+      "name": "chelsea",
+      "url":  "https://github.com/scikit-image/scikit-image/raw/master/skimage/data/chelsea.png"
+    }
   ]
 }
 ```
@@ -43,8 +43,8 @@ of the following format:
   "name": "neuroimage",
   "description": "Description of the neuroimaging archive",
   "datapacks": {
-      "chelsea": "http://somewhere.org/data/cat.json",
-      "sky": "http://somwhere.else.org/sky.json"
+    "chelsea": "http://somewhere.org/data/cat.json",
+    "sky": "http://somwhere.else.org/sky.json"
   }
 }
 ```
