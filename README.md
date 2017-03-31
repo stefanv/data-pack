@@ -15,7 +15,12 @@ of the following format:
   "description": "Description of the package",
   "version": 0.0,
   "files": [
-      ("chelsea", "http://somewhere.org/path/chelsea.png")
+      {"name": "tipsy",
+       "url": "https://api.figshare.com/v2/articles/4810153",
+       "type": "png"},
+
+      {"name": "chelsea",
+       "url": "https://github.com/scikit-image/scikit-image/raw/master/skimage/data/chelsea.png"}
   ]
 }
 ```
