@@ -15,12 +15,20 @@ of the following format:
   "description": "Description of the package",
   "version": 0.0,
   "files": [
-      {"name": "tipsy",
-       "url": "https://api.figshare.com/v2/articles/4810153",
-       "type": "png"},
+      {
+        "name": "tipsy",
+        "url": "https://api.figshare.com/v2/articles/4810153",
+        "type": "png",
+        "meta": {
+            "arbitrary": "metadata",
+            "another": "field",
+         }
+      },
 
-      {"name": "chelsea",
-       "url": "https://github.com/scikit-image/scikit-image/raw/master/skimage/data/chelsea.png"}
+      {
+        "name": "chelsea",
+        "url":  "https://github.com/scikit-image/scikit-image/raw/master/skimage/data/chelsea.png"
+      }
   ]
 }
 ```
