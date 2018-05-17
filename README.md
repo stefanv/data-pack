@@ -16,7 +16,7 @@ A data pack is a JSON file, stored at a publicly accessible and
     {
       "name": "tipsy",
       "url": "https://api.figshare.com/v2/articles/4810153",
-      "md5": "1e0ff52c4ce9e3ef86f64eb272425013",
+      "sha256": "7a9bdf7156262a5f7d8c3e5fd56d7de6466fa1b7f874d54d7419d6db64351427",
       "type": "png",
       "meta": {
           "arbitrary": "metadata",
@@ -28,7 +28,7 @@ A data pack is a JSON file, stored at a publicly accessible and
       "name": "chelsea",
       "url": "https://github.com/scikit-image/scikit-image/raw/master/skimage/data/chelsea.png",
       "url": "https://some.other/backup/url/chelsea.png",
-      "md5": "0f1b4a59504988622035d850dc0555ac",
+      "sha256": "596aa1e7cb875eb79f437e310381d26b338a81c2da23439704a73c4651e8c4bb",
       "meta": {
         "note": "You probably don't want to store data on GitHub---ephemeral"
       }
